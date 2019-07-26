@@ -13,4 +13,5 @@ I wrote this code many moons ago when I was first experimenting with a programmi
 
 This code heavily relies upon the Turtle module. "Turtle graphics is a popular way for introducing programming to kids. It was part of the original Logo programming language developed by Wally Feurzig and Seymour Papert in 1966." I know, impressive. The general idea is this: a turtle with colored ink on its tail moves a random distance in a random direction. If the magnitude of its distance exceeds the size of the screen (which I found to be around 165 of some unit, presumably pixels), the turtle crawls back to the center, creating a cool shape or pattern. Additionally, whenever the turtle reaches an edge of the screen, a random collection of letters (my attempt at generating a random name) is printed on the screen at that location. Since each drawn shape is filled with a transparent color, a few minutes of overlaying drawings results in a intricate, cool looking pattern.
 
+### Example output:
 ![An example: ](https://github.com/joshnatis/abstract_art_generator/raw/master/7.png)
